@@ -1,4 +1,3 @@
-import React from 'react'; // Ensure React is imported
 import { useAtomValue } from "jotai"
 import { Avatar} from "./BlogCard"
 import { Link } from "react-router-dom"

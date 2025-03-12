@@ -1,6 +1,4 @@
-import React from 'react'
 import { Avatar, Circle } from './BlogCard'
-import { Appbar } from './Appbar'
 export const BlogCardskeleton = () => {
   return (
     <div>

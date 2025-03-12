@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from 'react'
+import { ChangeEvent, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { SignupInput } from '@rishu_1702/common'
 import axios from 'axios'
@@ -6,7 +6,7 @@ import {Backend_Url} from '../config'
 import { useAtom } from 'jotai'
 import { nameatom } from '../store/atoms/name'
 export const Auth = ({Prakar}:{Prakar : "signup"|"signin"}) => {
-  const [naam,setnaam]=useAtom(nameatom);
+  const [,setnaam]=useAtom(nameatom);
   const [authobject,setAuthobject]=useState<SignupInput>({
     name :"",
     email:"",

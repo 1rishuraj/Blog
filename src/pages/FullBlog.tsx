@@ -1,5 +1,4 @@
-import React from 'react'
-import { Avatar,Circle } from '../components/BlogCard'
+import { Circle } from '../components/BlogCard'
 import { SBlogtype } from '../hooks'
 
 export const FullBlog = ({blog}:{blog:SBlogtype}) => {
