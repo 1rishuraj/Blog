@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.roboto-custom {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Change this to your desired weight */
+  font-style: normal;
+  font-variation-settings: "wdth" 100; /* Adjust as needed */
+}
