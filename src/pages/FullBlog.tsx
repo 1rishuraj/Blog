@@ -3,9 +3,9 @@ import { SBlogtype } from '../hooks'
 
 export const FullBlog = ({blog}:{blog:SBlogtype}) => {
   return (
-    <div className='px-50 py-10 roboto-custom '>
-      <div className='grid grid-cols-12'>
-      <div className='grid col-span-8 flex flex-col gap-2'>
+    <div className='px-10 lg:px-50 py-10 roboto-custom '>
+      <div className='grid grid-cols-1 lg:grid-cols-12 '>
+      <div className='grid lg:col-span-8 flex flex-col gap-2'>
         <div className='text-5xl font-bold '>
         {blog.title}
         </div>
@@ -16,7 +16,7 @@ export const FullBlog = ({blog}:{blog:SBlogtype}) => {
         {blog.content}
         </div>
       </div>
-      <div className='grid col-span-4'>
+      <div className='grid lg:col-span-4 hidden lg:block'>
         <div>
           <div>Author</div>
           <div className='flex items-center gap-4'>
